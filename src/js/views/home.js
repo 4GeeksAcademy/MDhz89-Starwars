@@ -4,6 +4,7 @@ import "../../styles/home.css";
 
 import Characters from "./characters.js";
 import Planets from "./Planets.js";
+import Starships from "./starships.js";
 
 export const Home = () => {
 
@@ -13,6 +14,7 @@ export const Home = () => {
 		<div>
 		<Characters />
 		<Planets/> 
+		<Starships/>
 		</div>
 	);
 

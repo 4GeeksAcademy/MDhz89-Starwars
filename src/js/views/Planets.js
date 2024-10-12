@@ -18,7 +18,7 @@ const Planets = () => {
                 {store.planets.map((item,index) =>
                     <CardPlaneta
                         key={index}
-                        id={index+1}
+                        id={index}
                         name={item.name}
                         population={item.population}
                         terrain={item.terrain}
